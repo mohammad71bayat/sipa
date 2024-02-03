@@ -1,0 +1,33 @@
+/* اضافه کردن فونت از Google Fonts به Tailwind CSS */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* اضافه کردن فونت اوسوم */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.bg-custom-500 {
+  background-color: #2e3092;
+}
+
+@media (min-width: 1280px) {
+  .w-1938 {
+    width: 1938.79px;
+  }
+
+  .h-112 {
+    height: 112.87px;
+  }
+
+  .left--1 {
+    left: -1px;
+  }
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("ravi\ font.ttf") format("woff2"), url("input.css") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
